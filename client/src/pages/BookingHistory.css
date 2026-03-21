@@ -1,0 +1,138 @@
+/* BookingHistory page styles */
+.bh-header {
+    margin-bottom: 20px;
+}
+
+.booking-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.booking-card {
+    display: flex;
+    gap: 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    transition: all var(--transition);
+}
+
+.booking-card:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-card);
+}
+
+.bk-poster {
+    flex-shrink: 0;
+    width: 80px;
+}
+
+.bk-poster img {
+    width: 80px;
+    height: 112px;
+    object-fit: cover;
+    display: block;
+}
+
+.bk-poster-ph {
+    width: 80px;
+    height: 112px;
+    background: var(--bg-surface);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+}
+
+.bk-body {
+    flex: 1;
+    padding: 10px 14px 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.bk-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.bk-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.bk-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bk-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.bk-seats-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.bk-seats-lbl {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.bk-seat-chip {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 2px 7px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.bk-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.bk-date {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.bk-total {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+
+@media (max-width: 480px) {
+    .bk-poster {
+        display: none;
+    }
+
+    .bk-body {
+        padding: 14px;
+    }
+}

@@ -1,0 +1,12 @@
+﻿db version v7.0.21-rc0
+Build Info: {
+    "version": "7.0.21-rc0",
+    "gitVersion": "a47b62aff2bae1914085c3ef1d90fc099acf000c",
+    "modules": [],
+    "allocator": "tcmalloc",
+    "environment": {
+        "distmod": "windows",
+        "distarch": "x86_64",
+        "target_arch": "x86_64"
+    }
+}

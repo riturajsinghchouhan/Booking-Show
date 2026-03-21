@@ -1,0 +1,50 @@
+﻿npm : npm verbose cli C
+:\nvm4w\nodejs\node.exe
+ C:\nvm4w\nodejs\node_m
+odules\npm\bin\npm-cli.
+js
+At line:1 char:1
++ npm run dev 2>&1 | 
+Out-File -FilePath 
+client_log.txt 
+-Encoding utf8
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (npm verbose c   
+ li...\bin\npm-cli.    
+js:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+npm info using 
+npm@10.8.2
+npm info using 
+node@v20.19.0
+npm verbose title npm 
+run dev
+npm verbose argv "run" 
+"dev"
+npm verbose logfile 
+logs-max:10 dir:C:\User
+s\ASUS\AppData\Local\np
+m-cache\_logs\2026-03-2
+1T07_09_44_427Z-
+npm verbose logfile C:\
+Users\ASUS\AppData\Loca
+l\npm-cache\_logs\2026-
+03-21T07_09_44_427Z-deb
+ug-0.log
+
+> bookmyshow-lite-client@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m335[22m[2m[0m ms[22m
+
+  [32mΓ₧£[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5174[22m/[39m
+[2m  [32mΓ₧£[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  Γ₧£[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
